@@ -14,6 +14,7 @@ namespace LEAP.App.Controllers
 
         public HomeController()
         {
+            //repository pattern
             _db = new Database("LeapConnectionString");
         }
 
