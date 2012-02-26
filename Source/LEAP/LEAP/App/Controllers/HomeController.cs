@@ -13,7 +13,7 @@ namespace LEAP.App.Controllers
         Database _db;
 
         /// <summary>
-        /// Home Controller 123
+        /// Home Controller
         /// </summary>
         public HomeController()
         {
