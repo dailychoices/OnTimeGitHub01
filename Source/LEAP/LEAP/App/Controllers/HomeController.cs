@@ -13,7 +13,7 @@ namespace LEAP.App.Controllers
         Database _db;
 
         /// <summary>
-        /// comments added
+        /// Home Controller
         /// </summary>
         public HomeController()
         {
@@ -22,7 +22,7 @@ namespace LEAP.App.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Index 
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
