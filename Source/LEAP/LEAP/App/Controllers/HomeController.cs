@@ -12,6 +12,9 @@ namespace LEAP.App.Controllers
     {
         Database _db;
 
+        /// <summary>
+        /// comments added
+        /// </summary>
         public HomeController()
         {
             //repository pattern
