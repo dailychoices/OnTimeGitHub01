@@ -21,6 +21,11 @@ namespace LEAP.App.Controllers
             _db = new Database("LeapConnectionString");
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public ActionResult Index(int id = 1)
         {
             TestTable question = _db.SingleOrDefault<TestTable>("SELECT * FROM Test.TestTable WHERE Id = @0", id);
