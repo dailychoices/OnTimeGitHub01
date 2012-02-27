@@ -151,7 +151,9 @@
     <Content Include="Public\javascripts\jquery.validate.js" />
     <Content Include="Public\javascripts\jquery.validate.min.js" />
     <Content Include="Public\javascripts\modernizr-2.0.6-development-only.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
