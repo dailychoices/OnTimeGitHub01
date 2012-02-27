@@ -17,7 +17,7 @@ namespace LEAP.App.Controllers
         /// </summary>
         public HomeController()
         {
-            //repository pattern 
+            //repository pattern  AAA
             _db = new Database("LeapConnectionString");
         }
 
